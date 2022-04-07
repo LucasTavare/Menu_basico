@@ -39,29 +39,72 @@ nav ul li a:hover{
 }
 
 #icones{
-    background-color:lightyellow;
     width: 100%;
     height: 500px;
     float: left;
+    padding: 10px;
 }
 
 #imagens{
-    background-color: lightcyan;
     width: 100%;
-    height: 500px;
+    height: auto;
     float: left;
+    padding: 10px;
 }
 
 #videos{
-    background-color: lightblue;
     width: 100%;
     height: 500px;
     float: left; 
 }
 
 #mapas{
-    background-color: lightsteelblue;
     width: 100%;
     height: 500px;
     float: left;
+}
+
+.icones-coluna{
+    width: 50%;
+    float: left;
+    height: 1000px;  
+    padding: 15px;
+}
+
+.icones-img{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    padding: 7px;
+    margin: 10px;
+    border-radius: 4px;
+
+}
+
+.subtitulo{
+    color: darkturquoise;
+    font-weight: bold;
+}
+
+.imagens-coluna{
+    width: 100%;
+    float: left;
+}
+
+figure{
+    width: 25%;
+    float: left;
+    background-color: darkturquoise;
+}
+
+.imagens-galeria{
+    width: 100%;
+    height: 200px;
+}
+
+figcaption{
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+    font-weight: bold;
 }
