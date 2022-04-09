@@ -10,7 +10,13 @@
     <link rel="stylesheet" href="css/estilo.css">
 
     <!-- Importação Font Awasome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Importação do Fancybox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+
 </head>
 
 <body>
@@ -19,11 +25,11 @@
 
         <nav>
             <ul>
-                <li  class="dir"><a href="">LOGOTIPO</a></li>
-                <li  class="esquerda"><a href="#icone"><i class="fa-solid fa-icons"></i> Icones</a></li>
-                <li  class="esquerda"><a href="#imagens"><i class="fa-solid fa-image"></i> Imagens</a></li>
-                <li  class="esquerda"><a href="#videos"><i class="fa-solid fa-video"></i> Videos</a></li>
-                <li  class="esq"><a href="#mapas"><i class="fa-solid fa-map-location"></i> Mapas</a></li>
+                <li class="dir"><a href="">LOGOTIPO</a></li>
+                <li class="esquerda"><a href="#icone"><i class="fa-solid fa-icons"></i> Icones</a></li>
+                <li class="esquerda"><a href="#imagens"><i class="fa-solid fa-image"></i> Imagens</a></li>
+                <li class="esquerda"><a href="#videos"><i class="fa-solid fa-video"></i> Videos</a></li>
+                <li class="esquerda"><a href="#mapas"><i class="fa-solid fa-map-location"></i> Mapas</a></li>
             </ul>
         </nav>
 
@@ -48,7 +54,7 @@
                 </ul>
             </div>
             <div class="icones-coluna">
-                
+
                 <img class="icones-img" src="img/logo-material.png" alt="Material Icons">
                 <img class="icones-img" src="img/logo_bootstrap.png" alt="Bootstrap icons">
                 <img class="icones-img" src="img/logo_font.png" alt="Font Awasome">
@@ -56,57 +62,57 @@
 
             </div>
         </div>
-        
+
         <!-- final primeira coluna -->
-        
+
 
         <div id="imagens">
             <h3>Inserindo e criando galerias de imagens</h3>
             <div class="imagens-coluna">
                 <figure>
-                    <img class="imagens-galeria" src="img/1.jpg" alt="">
+                    <img data-fancybox="gallery" data-caption="Codigo HTML" class="imagens-galeria" src="img/1.jpg" alt="">
                     <figcaption>
                         Codigo HTML
-                    </figcaption>                
+                    </figcaption>
                 </figure>
                 <figure>
-                    <img class="imagens-galeria" src="img/2.jpg" alt="">
+                    <img data-fancybox="gallery"  data-caption="Programação" class="imagens-galeria" src="img/2.jpg" alt="">
                     <figcaption>
                         Programação
                     </figcaption>
                 </figure>
                 <figure>
-                    <img class="imagens-galeria" src="img/3.jpg" alt="">
+                    <img data-fancybox="gallery"  data-caption="Computadores" class="imagens-galeria" src="img/3.jpg" alt="">
                     <figcaption>
-                        Computafores
+                        Computadores
                     </figcaption>
                 </figure>
                 <figure>
-                    <img class="imagens-galeria" src="img/4.jpg" alt="">
+                    <img data-fancybox="gallery"  data-caption="Programador" class="imagens-galeria" src="img/4.jpg" alt="">
                     <figcaption>
                         Programador
                     </figcaption>
                 </figure>
                 <figure>
-                    <img class="imagens-galeria" src="img/5.jpg" alt="">
+                    <img data-fancybox="gallery"  data-caption="Café" class="imagens-galeria" src="img/5.jpg" alt="">
                     <figcaption>
                         Café
                     </figcaption>
                 </figure>
                 <figure>
-                    <img class="imagens-galeria" src="img/6.jpg" alt="">
+                    <img data-fancybox="gallery"  data-caption="Home Office" class="imagens-galeria" src="img/6.jpg" alt="">
                     <figcaption>
                         Home Office
                     </figcaption>
                 </figure>
                 <figure>
-                    <img class="imagens-galeria" src="img/7.jpg" alt="">
+                    <img data-fancybox="gallery"  data-caption="Estudando HTML e CSS" class="imagens-galeria" src="img/7.jpg" alt="">
                     <figcaption>
                         Estudando HTML e CSS
                     </figcaption>
                 </figure>
                 <figure>
-                    <img class="imagens-galeria" src="img/8.png" alt="">
+                    <img data-fancybox="gallery"  data-caption="Linguagem" class="imagens-galeria" src="img/8.png" alt="">
                     <figcaption>
                         Linguagem
                     </figcaption>
@@ -123,7 +129,13 @@
         </div>
 
 
-    </div><!-- Final Container -->
+
+
+    </div>
+    <!-- Final Container -->
+    <!-- script fica abaixo -->
+    <!-- Importação do JS do Fancybox -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 </body>
 
 </html>

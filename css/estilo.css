@@ -122,7 +122,12 @@ figcaption {
     padding: 0px 10px;
 }
 
-.imagens-galeria:hover{
-    transform: ;
+figure:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
 
+.imagens-galeria:hover{
+    filter: brightness(150%);
+    filter: blur(1px);
 }
