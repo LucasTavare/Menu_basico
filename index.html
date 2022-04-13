@@ -22,127 +22,156 @@
 <body>
     <!-- container - div principal do site -->
     <div id="container">
-
-        <nav>
-            <ul>
-                <li class="dir"><a href="">LOGOTIPO</a></li>
-                <li class="esquerda"><a href="#icone"><i class="fa-solid fa-icons"></i> Icones</a></li>
-                <li class="esquerda"><a href="#imagens"><i class="fa-solid fa-image"></i> Imagens</a></li>
-                <li class="esquerda"><a href="#videos"><i class="fa-solid fa-video"></i> Videos</a></li>
-                <li class="esquerda"><a href="#mapas"><i class="fa-solid fa-map-location"></i> Mapas</a></li>
-            </ul>
-        </nav>
-
-        <br>
-
-        <div id="icones">
-            <h3>Conhecendo Bibliotecas de icones</h3>
-            <div class="icones-coluna">
-                <p class="subtitulo">Principais bibliotecas</p>
+        <div>
+            <nav>
                 <ul>
-                    <li><b>Font Awesome</b></li>
-                    <li>Ionicons</li>
-                    <li>Material Icons</li>
-                    <li>CSS.gg</li>
-                    <li>Feathericons</li>
-                    <li>Eva Icons</li>
-                    <li>Heroicon</li>
-                    <li>Bootstrap Icon</li>
-                    <li>Remix Icon</li>
-                    <li>Octicons</li>
-                    <li>Ikonate</li>
+                    <li class="dir"><a href="">LOGOTIPO</a></li>
+                    <li class="esquerda"><a href="#icone"><i class="fa-solid fa-icons"></i> Icones</a></li>
+                    <li class="esquerda"><a href="#imagens"><i class="fa-solid fa-image"></i> Imagens</a></li>
+                    <li class="esquerda"><a href="#videos"><i class="fa-solid fa-video"></i> Videos</a></li>
+                    <li class="esquerda"><a href="#mapas"><i class="fa-solid fa-map-location"></i> Mapas</a></li>
                 </ul>
-            </div>
-            <div class="icones-coluna">
+            </nav>
 
-                <img class="icones-img" src="img/logo-material.png" alt="Material Icons">
-                <img class="icones-img" src="img/logo_bootstrap.png" alt="Bootstrap icons">
-                <img class="icones-img" src="img/logo_font.png" alt="Font Awasome">
-                <img class="icones-img" src="img/logo_ionicons.png" alt="Ionicons">
+            <main>
 
-            </div>
+                <div id="icones">
+                    <h3>Conhecendo Bibliotecas de icones</h3>
+                    <div class="icones-coluna">
+                        <p class="subtitulo">Principais bibliotecas</p>
+                        <ul>
+                            <li><b>Font Awesome</b></li>
+                            <li>Ionicons</li>
+                            <li>Material Icons</li>
+                            <li>CSS.gg</li>
+                            <li>Feathericons</li>
+                            <li>Eva Icons</li>
+                            <li>Heroicon</li>
+                            <li>Bootstrap Icon</li>
+                            <li>Remix Icon</li>
+                            <li>Octicons</li>
+                            <li>Ikonate</li>
+                        </ul>
+                    </div>
+                    <div class="icones-coluna">
+
+                        <img class="icones-img" src="img/logo-material.png" alt="Material Icons">
+                        <img class="icones-img" src="img/logo_bootstrap.png" alt="Bootstrap icons">
+                        <img class="icones-img" src="img/logo_font.png" alt="Font Awasome">
+                        <img class="icones-img" src="img/logo_ionicons.png" alt="Ionicons">
+
+                    </div>
+                </div>
+
+                <!-- final primeira coluna -->
+
+
+                <div id="imagens">
+                    <h3>Inserindo e criando galerias de imagens</h3>
+                    <div class="imagens-coluna">
+                        <figure>
+                            <img data-fancybox="gallery" data-caption="Codigo HTML" class="imagens-galeria"
+                                src="img/1.jpg" alt="">
+                            <figcaption>
+                                Codigo HTML
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img data-fancybox="gallery" data-caption="Programação" class="imagens-galeria"
+                                src="img/2.jpg" alt="">
+                            <figcaption>
+                                Programação
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img data-fancybox="gallery" data-caption="Computadores" class="imagens-galeria"
+                                src="img/3.jpg" alt="">
+                            <figcaption>
+                                Computadores
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img data-fancybox="gallery" data-caption="Programador" class="imagens-galeria"
+                                src="img/4.jpg" alt="">
+                            <figcaption>
+                                Programador
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img data-fancybox="gallery" data-caption="Café" class="imagens-galeria" src="img/5.jpg"
+                                alt="">
+                            <figcaption>
+                                Café
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img data-fancybox="gallery" data-caption="Home Office" class="imagens-galeria"
+                                src="img/6.jpg" alt="">
+                            <figcaption>
+                                Home Office
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img data-fancybox="gallery" data-caption="Estudando HTML e CSS" class="imagens-galeria"
+                                src="img/7.jpg" alt="">
+                            <figcaption>
+                                Estudando HTML e CSS
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img data-fancybox="gallery" data-caption="Linguagem" class="imagens-galeria"
+                                src="img/8.png" alt="">
+                            <figcaption>
+                                Linguagem
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div id="videos">
+                    <h3>Inserindo e criando galeria de videos</h3>
+
+                    <iframe class="tamanho-video" src="https://www.youtube.com/embed/wd2xQZ1np6c"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <iframe class="tamanho-video" src="https://www.youtube.com/embed/8cbvC_C9y7Y"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                    <video class="tamanho-video" controls>
+                        <source src="videos/mov_bbb.mp4" type="video/mp4">
+                    </video>
+
+                    <iframe class="tamanho-video" src="https://www.youtube.com/embed/r11FflkQqJs"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                </div>
+
+                <div id="mapas">
+                    <h3>Inserindo mapas</h3>
+
+                    <iframe class="tamanho-mapas"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3700.1518649044065!2d-46.80175978490463!3d-21.967133810538602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c9cb63bdb13581%3A0x8b769aa2064c309a!2sSenac%20S%C3%A3o%20Jo%C3%A3o%20da%20Boa%20Vista!5e0!3m2!1spt-PT!2sbr!4v1649804568664!5m2!1spt-PT!2sbr"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+
+            </main>
+
+            <!-- rodape da pagina -->
+            <footer>
+                <p>&copy; Desenvolvido por: <span class="negrito">Lucas Protestato Tavares</span></p>
+                <small>2022</small>
+            </footer>
+
+
         </div>
 
-        <!-- final primeira coluna -->
-
-
-        <div id="imagens">
-            <h3>Inserindo e criando galerias de imagens</h3>
-            <div class="imagens-coluna">
-                <figure>
-                    <img data-fancybox="gallery" data-caption="Codigo HTML" class="imagens-galeria" src="img/1.jpg" alt="">
-                    <figcaption>
-                        Codigo HTML
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img data-fancybox="gallery"  data-caption="Programação" class="imagens-galeria" src="img/2.jpg" alt="">
-                    <figcaption>
-                        Programação
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img data-fancybox="gallery"  data-caption="Computadores" class="imagens-galeria" src="img/3.jpg" alt="">
-                    <figcaption>
-                        Computadores
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img data-fancybox="gallery"  data-caption="Programador" class="imagens-galeria" src="img/4.jpg" alt="">
-                    <figcaption>
-                        Programador
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img data-fancybox="gallery"  data-caption="Café" class="imagens-galeria" src="img/5.jpg" alt="">
-                    <figcaption>
-                        Café
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img data-fancybox="gallery"  data-caption="Home Office" class="imagens-galeria" src="img/6.jpg" alt="">
-                    <figcaption>
-                        Home Office
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img data-fancybox="gallery"  data-caption="Estudando HTML e CSS" class="imagens-galeria" src="img/7.jpg" alt="">
-                    <figcaption>
-                        Estudando HTML e CSS
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img data-fancybox="gallery"  data-caption="Linguagem" class="imagens-galeria" src="img/8.png" alt="">
-                    <figcaption>
-                        Linguagem
-                    </figcaption>
-                </figure>
-            </div>
-        </div>
-
-        <div id="videos">
-            <h3>Inserindo e criando galeria de videos</h3>
-
-            <iframe class="tamanho-video" src="https://www.youtube.com/embed/wd2xQZ1np6c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe class="tamanho-video" src="https://www.youtube.com/embed/8cbvC_C9y7Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-            <video class="tamanho-video" controls>
-                <source src="videos/mov_bbb.mp4" type="video/mp4">
-            </video>
-
-            <iframe class="tamanho-video" src="https://www.youtube.com/embed/r11FflkQqJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        </div>
-
-        <div id="mapas">
-            <h3>Inserindo mapas</h3>
-
-            <iframe class="tamanho-mapas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3700.1518649044065!2d-46.80175978490463!3d-21.967133810538602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c9cb63bdb13581%3A0x8b769aa2064c309a!2sSenac%20S%C3%A3o%20Jo%C3%A3o%20da%20Boa%20Vista!5e0!3m2!1spt-PT!2sbr!4v1649804568664!5m2!1spt-PT!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-        </div>
-
-    </div>
-    <!-- Final Container -->
+    </div><!-- Final Container -->
     <!-- script fica abaixo -->
     <!-- Importação do JS do Fancybox -->
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>

@@ -12,7 +12,8 @@ nav {
     float: left;
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    float: left;
+    /* menu fixo */
+    position: fixed;
 }
 
 nav ul {
@@ -22,7 +23,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline-block;
+    float: left;
 }
 
 nav ul li a {
@@ -31,6 +32,7 @@ nav ul li a {
     font-weight: bold;
     padding: 15px;
     display: block;
+    z-index: 999;
 }
 
 nav ul li a:hover {
@@ -43,6 +45,7 @@ nav ul li a:hover {
     height: 500px;
     float: left;
     padding: 10px;
+    margin-top: 50px;
 }
 
 #imagens {
@@ -146,4 +149,22 @@ figure:hover{
     width: 100%;
     float: left;
     border: none;
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(105, 179, 179);
+    float: left;
+    color: antiquewhite;
+    padding: 20px;
+    text-align: center;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
 }
