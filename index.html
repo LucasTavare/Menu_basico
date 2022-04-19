@@ -25,11 +25,17 @@
         <div>
             <nav>
                 <ul>
-                    <li><a href="#">LOGO</a></li>
-                    <li><a href="#icones"><i class="fa-solid fa-icons"></i> Icones</a></li>
-                    <li><a href="#imagens"><i class="fa-solid fa-image"></i> Imagens</a></li>
-                    <li><a href="#videos"><i class="fa-solid fa-video"></i> Videos</a></li>
-                    <li><a href="#mapas"><i class="fa-solid fa-map-location"></i> Mapas</a></li>
+                    <li class="alinha-esquerda"><a href="#">LOGO</a></li>
+
+                    <li id="icone-responsivo"><i class="fa-solid fa-bars fa-2x branco" onclick="exibeMenu()"></i></li>
+
+                    <div id="exibe-menu">
+                        <li><a href="#icones"><i class="fa-solid fa-icons"></i> Icones</a></li>
+                        <li><a href="#imagens"><i class="fa-solid fa-image"></i> Imagens</a></li>
+                        <li><a href="#videos"><i class="fa-solid fa-video"></i> Videos</a></li>
+                        <li><a href="#mapas"><i class="fa-solid fa-map-location"></i> Mapas</a></li>
+                    </div>
+
                 </ul>
             </nav>
 
@@ -196,6 +202,12 @@
 
             </main>
 
+            <div id="topo">
+                <a href="#container">
+                <i class="fa-solid fa-arrow-up fa-3x"></i>
+                </a>
+            </div>
+
             <!-- rodape da pagina -->
             <footer>
                 <p>&copy; Desenvolvido por: <span class="negrito">Lucas Protestato Tavares</span></p>
@@ -209,6 +221,18 @@
     <!-- script fica abaixo -->
     <!-- Importação do JS do Fancybox -->
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <!-- Script especifico da pagina -->
+    <!-- Linguagem JavaScript -->
+    <script>
+        //cria a função exibeMenu
+        function exibeMenu(){
+            $('#exibe-menu').toggle()
+        }
+
+    </script>
 
 </body>
 
